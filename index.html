@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Random Quote Machine</title>
+        <link rel="shortcut icon" href="coffee.png" type="image.png" />
+        
+        <!-- Metadata -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.css" type="text/css" />
+        
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto|Satisfy" rel="stylesheet" />
+        
+        <!-- BootstrapCSS CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        
+        <!-- jQuery -->
+        <script type="text/javascript" src="jquery.min.js"></script>
+        
+        <!-- Local Files -->
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script type="text/javascript" src="script.js"></script>
+        
+    </head>
+    
+    <body>
+        
+        <!-- Image and text -->
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="https://marjanovicsteva.github.io/">
+                <img src="../coffee.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                Stevit
+            </a>
+            
+            <span class="navbar-text">
+                Random Quote Machine
+            </span>
+        </nav>
+        
+        <div class="container">
+            <div class="button" align="center">
+                <button id="btn" class="btn btn-outline-light">
+                    New Quote
+                </button>
+            </div>
+            
+            <div class="card">
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                      <p id="quoteBox"></p>
+                      <footer id="authorBox" class="blockquote-footer"></footer>
+                      <div align="right">
+                          <a href="#" id="twttrBtn" class="btn"><i class="fa fa-twitter"></i></a>
+                          <a href="#" id="tumblrBtn" class="btn"><i class="fa fa-tumblr"></i></a>
+                      </div>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

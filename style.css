@@ -1,0 +1,47 @@
+body {
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    height: 100vh;
+    background-color: #726193;
+}
+
+.navbar-brand {
+    font-family: 'Satisfy', cursive;
+    font-size: 140%;
+}
+
+.card {
+    margin-top: 15vh;
+}
+
+.button {
+    margin-top: 10vh;
+}
+
+#quoteBox {
+    font-size: 2em;
+}
+
+#authorBox {
+    font-size: 150%;
+    font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+    #quoteBox {
+        font-size: 1.5em;
+    }
+    
+    #authorBox {
+        font-size: 120%
+    }
+}
+
+@media screen and (max-width: 412px) {
+    #quoteBox {
+        font-size: 1.2em;
+    }
+    
+    #authorBox {
+        font-size: 100%;
+    }
+}
